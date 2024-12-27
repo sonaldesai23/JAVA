@@ -8,8 +8,16 @@ public class literals_cwh {
         float f1 = 3.3f;
         double d1 = 3.45D;
         boolean a = true;
+
         System.out.println(age);
-    
+        System.out.println(age2);
+        System.out.println(age4);
+        System.out.println(age3);
+        System.out.println(ch);
+        System.out.println(f1);
+        System.out.println(d1);
+        System.out.println(a);
+
         String str = "Sonal";
         System.out.println(str);
     }
