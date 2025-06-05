@@ -1,4 +1,4 @@
-public class literals_cwh {
+public class literals {
     public static void main(String[] args){
         byte age = 34;
         int age2 = 56;
@@ -8,7 +8,7 @@ public class literals_cwh {
         float f1 = 3.3f;
         double d1 = 3.45D;
         boolean a = true;
-
+           //boolean->literal and a->identifier
         System.out.println(age);
         System.out.println(age2);
         System.out.println(age4);
