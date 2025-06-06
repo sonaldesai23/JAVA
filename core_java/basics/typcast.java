@@ -1,5 +1,4 @@
-
-
+package core_java.basics;
 import java.util.Scanner;
 
 public class typcast {

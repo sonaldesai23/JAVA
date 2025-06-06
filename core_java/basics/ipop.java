@@ -1,4 +1,4 @@
-// package com.company;
+package core_java.basics;
 import java.util.Scanner; //import java.util.*;
 
 public class ipop{

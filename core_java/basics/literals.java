@@ -1,3 +1,6 @@
+package core_java.basics;
+
+
 public class literals {
     public static void main(String[] args){
         byte age = 34;

@@ -1,4 +1,4 @@
-
+package core_java.basics;
 public class patterns {
     public static void main(String[] args) {
         int n =4;
