@@ -19,6 +19,8 @@ public class largestnum {
              System.out.println("c  is Largest.");
         }
 
+        sc.close();
+
     }
     
 }
