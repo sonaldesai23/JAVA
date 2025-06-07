@@ -12,6 +12,7 @@ public class reverse {
             System.out.print(rem);
             n = n / 10;
         }
+        sc.close();
 
     }
 }

@@ -19,6 +19,8 @@ public class occurrences {
             n = n / 10;
         }
         System.out.println(num + " is occured " + cnt + " times.");
+
+        sc.close();
     }
 
 }
