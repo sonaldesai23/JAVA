@@ -49,6 +49,8 @@ public class loops {
             System.out.println(n2);
             n2 ++;
         } while(n2 <= 5);
+
+        sc.close();
     }
 }
 

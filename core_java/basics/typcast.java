@@ -10,7 +10,7 @@ public class typcast {
 
         // type casting
         int num = (int)(67.56f);
-//        System.out.println(num);
+       System.out.println(num);
 
         // automatic type promotion in expressions
 //        int a = 257;
@@ -41,5 +41,7 @@ public class typcast {
         // float + int - double = double
         System.out.println((f * b) + " " + (i / c) + " " + (d * s));
         System.out.println(result);
+
+        input.close();
     }
 }

@@ -10,6 +10,6 @@ public class sum {
         float sum = a + b;
 
         System.out.println("sum =" + sum);
-
+        sc.close();
     }
 }
