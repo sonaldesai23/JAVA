@@ -23,7 +23,7 @@ public class armstrongnum {
         }
 
     }
-    
+
 
     static boolean isArmstrong(int n) {
         int original = n;
