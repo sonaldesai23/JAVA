@@ -13,6 +13,6 @@ public class shadowing {
     }
 
     static void xyz() {
-        System.out.println( x); //5
+        System.out.println( x); //5   
     }
 }
