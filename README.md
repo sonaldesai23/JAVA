@@ -43,13 +43,6 @@ Check the commit history to see my journey 👣.
 
 ---
 
-## 🌟 Want to Learn With Me?
-
-Feel free to **star** ⭐ this repo, **fork** it, or just use the code for your own learning.  
-If you're also learning DSA, let's connect!
-
----
-
 ## 📬 Contact
 
 - GitHub: [sonaldesai23](https://github.com/sonaldesai23)
