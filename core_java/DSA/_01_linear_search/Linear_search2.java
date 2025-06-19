@@ -1,4 +1,4 @@
-package core_java.DSA.01-linear search;
+package core_java.DSA._01_linear_search;
 
 public class Linear_search2 {
     public static void main(String[] args) {

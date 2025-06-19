@@ -1,11 +1,15 @@
-package core_java.basics.problems.linearsearch;
+package core_java.basics.problems._01_linear_search;
+import java.util.Arrays;
 
 public class SearchInString {
     public static void main(String[] args) {
         String name = "Sonal";
         char target = 'n';
-        boolean ans = search2(name , target);
-        System.out.println(ans);
+        // boolean ans = search(name , target);
+        // System.out.println(ans);
+
+        System.out.println(Arrays.toString(name.toCharArray()));
+        // o/p - [S, o, n, a, l]  char array.
     }
 
 
@@ -14,7 +18,8 @@ public class SearchInString {
             return false;
         }
 
-        for(char ch : str.toCharArray()) {
+        //enhanced for loop
+        for(char ch : str.toCharArray()) {  
             if(ch == tget) {
                 return true;
             }
