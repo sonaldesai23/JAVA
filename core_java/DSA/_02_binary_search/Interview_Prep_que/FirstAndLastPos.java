@@ -13,10 +13,11 @@ public class FirstAndLastPos {
 
         // check for 1st occurrence if target first.
         int start = search(nums, target, true);
-        int end = search(nums, target, false);
-
-        ans[0] = start;
-        ans[1] = end; 
+        if( ans[0] != -1) {
+            ans[1] = search(nums, target, false);
+        }
+        
+        
 
         return ans;
     }
