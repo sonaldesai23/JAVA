@@ -1,22 +1,15 @@
 package core_java.DSA._02_binary_search.Interview_Prep_que;
-
-public class Ceiling {
+public class Floor {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
-        int target = 19;
-        int ans = ceiling(arr, target);
+        int target = 15;
+        int ans = floor(arr, target);
         System.out.println(ans);
 
     }
 
-    //return the index of smallest number greater than equal to target
-    static int ceiling(int[] arr, int target)  {
-        
-        // what if the target is greater than the greatest number in the array.
-        if(target > arr[arr.length -1]) {
-            return -1;
-        }
-        
+    //return the index greatest number <= target.
+    static int floor(int[] arr, int target)  {
         int start = 0;
         int end = arr.length -1;
 
@@ -34,7 +27,7 @@ public class Ceiling {
                 return mid;
             }
         }
-        return start;
+        return end;
     }
 
 }
