@@ -20,7 +20,7 @@ public class MultiDimention {
         // };
 
         Scanner sc = new Scanner(System.in);
-        int[][] arr = new int[3][3];
+        int[][] arr = new int[3][];
         // System.out.println(arr.length); //gives no. of rows
         
         //Input -
