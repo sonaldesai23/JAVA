@@ -4,7 +4,7 @@ public class SortedMatrix {
     public static void main(String[] args)  {
 
     }
-
+/* 
     static int[] binarysearch(int[] matrix, int row, int cstart, int cend, int target) {
         while(cstart <= cend){
             int mid = cstart + (cend - cstart) = 2;
@@ -22,3 +22,4 @@ public class SortedMatrix {
         }
     }
 }
+*/
