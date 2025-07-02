@@ -2,7 +2,7 @@ package core_java.DSA._03_sorting.Bubble_sort;
 
 import java.util.Arrays;
 
-public class main {
+public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {-1, -34, 5, 4,0, -78, 3, 2, 1};
         // int[] arr = {3, 15, 29, 11, 1};

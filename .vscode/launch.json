@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "core_java.DSA._03_sorting.Insertion_sort.InsertionSort",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "core_java.DSA._03_sorting.InsertionSort",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "core_java.DSA._03_sorting.SelectionSort",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
             "name": "main",
             "request": "launch",
             "mainClass": "core_java.DSA._03_sorting.Selection_sort.main",
