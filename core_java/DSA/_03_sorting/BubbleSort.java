@@ -1,4 +1,4 @@
-package core_java.DSA._03_sorting.Bubble_sort;
+package core_java.DSA._03_sorting;
 
 import java.util.Arrays;
 

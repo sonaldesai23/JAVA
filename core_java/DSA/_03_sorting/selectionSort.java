@@ -1,4 +1,4 @@
-package core_java.DSA._03_sorting.Selection_sort;
+package core_java.DSA._03_sorting;
 
 import java.util.Arrays;
 
