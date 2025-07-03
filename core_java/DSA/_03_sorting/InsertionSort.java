@@ -1,4 +1,4 @@
-package core_java.DSA._03_sorting.Insertion_sort;
+package core_java.DSA._03_sorting;
 
 import java.util.Arrays;
 
@@ -22,16 +22,7 @@ public class InsertionSort {
         }
     }
 
-    static void selection(int[] arr) {
-        for(int i= 0; i < arr.length; i++) {
-            //find the max item in the remaining arr nad  swap with correct index.
-            int last = arr.length - i - 1;
-            int maxIndex = getMaxIndex(arr, 0, last);
-
-            swap(arr, maxIndex, last);
-        }
-    }
-
+    
     // for swapping
     static void swap(int[] arr, int first, int second) {
         int temp = arr[first];

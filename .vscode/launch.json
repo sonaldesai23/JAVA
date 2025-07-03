@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CyclicSort",
+            "request": "launch",
+            "mainClass": "core_java.DSA._03_sorting.CyclicSort",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
+            "name": "CyclicSort",
+            "request": "launch",
+            "mainClass": "CyclicSort",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "InsertionSort",
             "request": "launch",
             "mainClass": "core_java.DSA._03_sorting.Insertion_sort.InsertionSort",
