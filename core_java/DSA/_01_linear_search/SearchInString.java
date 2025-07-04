@@ -1,4 +1,4 @@
-package core_java.basics.problems._01_linear_search;
+package core_java.DSA._01_linear_search;
 import java.util.Arrays;
 
 public class SearchInString {
