@@ -23,8 +23,8 @@ public class DisappearedNum {
         //just find missing numbers.
         List<Integer> ans = new ArrayList<>();
         for(int index = 0; index < nums.length; index++) {
-            if(nums[index] != index+1) {
-                ans.add(index + 1);
+            if(nums[index] != index+1) {//index 4 does not contain ele 5, so..
+                ans.add(index + 1); // add in the list.
             }
         }
 
