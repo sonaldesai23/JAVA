@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetMismatch",
+            "request": "launch",
+            "mainClass": "core_java.DSA._03_sorting.InterviewProblems.SetMismatch",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
             "name": "FindAllDuplicate",
             "request": "launch",
             "mainClass": "core_java.DSA._03_sorting.InterviewProblems.FindAllDuplicate",
