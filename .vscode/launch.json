@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Comparison",
+            "request": "launch",
+            "mainClass": "core_java.basics.strings.Comparison",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "core_java.basics.strings.main",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
             "name": "FirstmissingPositive",
             "request": "launch",
             "mainClass": "core_java.DSA._03_sorting.InterviewProblems.FirstmissingPositive",
