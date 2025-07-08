@@ -15,5 +15,8 @@ public class Comparison {
         // System.out.println(nm1 == nm2);  //-> false
 
         System.out.println(nm1.equals(nm2));  //method -> true
+
+        System.out.println(nm1.charAt(0));  //S
+
     }
 }
