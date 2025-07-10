@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Methods",
+            "request": "launch",
+            "mainClass": "core_java.basics.strings.Methods",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
+            "name": "SB",
+            "request": "launch",
+            "mainClass": "core_java.basics.strings.SB",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
+            "name": "Performance",
+            "request": "launch",
+            "mainClass": "core_java.basics.strings.Performance",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
             "name": "Operators",
             "request": "launch",
             "mainClass": "core_java.basics.strings.Operators",
