@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "core_java.basics.strings.Palindrome",
+            "projectName": "JAVA_c03095c2"
+        },
+        {
+            "type": "java",
             "name": "Methods",
             "request": "launch",
             "mainClass": "core_java.basics.strings.Methods",

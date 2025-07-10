@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Methods {
     public static void main(String[] args) {
-        String nm = "Sonal Desai Hwllo world";
+        String nm = "Sonal Desai Hello World";
         System.out.println(nm);
         System.out.println(Arrays.toString(nm.toCharArray()));
         System.out.println(nm.toLowerCase());
