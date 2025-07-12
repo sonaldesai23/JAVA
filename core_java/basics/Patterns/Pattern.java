@@ -49,10 +49,10 @@ public class Pattern {
     
     static void ptrn6(int n){
         for(int row = 1; row <= n; row++) {
-            for(int col = 1; col <= n-row; col++) {
-                System.out.print(".");
+            for(int space = 1; space <= n-row; space++) {
+                System.out.print(" ");
             }
-            for(int clm = 4; clm >= n-1; clm--){
+            for(int clm = 4; clm >= clm+1; clm--){
                 System.out.print("*");
             }
             System.out.println();
