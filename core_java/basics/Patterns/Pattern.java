@@ -52,7 +52,7 @@ public class Pattern {
             for(int space = 1; space <= n-row; space++) {
                 System.out.print(" ");
             }
-            for(int clm = 4; clm >= clm+1; clm--){
+            for(int clm = 5; clm >= clm+1; clm--){
                 System.out.print("*");
             }
             System.out.println();

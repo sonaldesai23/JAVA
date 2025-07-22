@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumbersExmple",
+            "request": "launch",
+            "mainClass": "core_java.basics.Recursion.NumbersExmple",
+            "projectName": "JAVA_4415cb54"
+        },
+        {
+            "type": "java",
             "name": "Pattern",
             "request": "launch",
             "mainClass": "core_java.basics.Patterns.Pattern",
