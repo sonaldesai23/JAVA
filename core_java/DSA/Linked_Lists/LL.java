@@ -5,12 +5,44 @@ public class LL {
     private Node head;
     private Node tail;
     private int size;
-    public LL() {
+
+    public LL() {  //constructor
         this.size = 0;
     }
 
-    
-    private int Node {
+    public void insertFirst(int val) {
+        Node node = new Node(val);//created new node and put value
+        node.next = head;//point the inserted node to head
+        head = node;//head is alwYA FIRST
+
+        if(tail == null) { //if there are no node, 1st node will be
+            tail = head;
+        }
+        size += 1;
+
+    }
+
+    public void insertLast(int val) {
+        if(tail == null) {
+            insertFirst(val);
+            return;
+        }
+        Node node = new Node(val);//create node
+        tail.next = node; //add node to next of tail
+        tail = node;//assign last node as tail
+        size++;
+    }
+
+    public void display() {
+        Node temp = head;
+        while(temp != null) {
+            System.out.print(temp.value + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("END");
+    }
+
+    private class Node {
         private int value;
         private Node next;
 
