@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "core_java.DSA.Linked_Lists.Main",
+            "projectName": "JAVA_4415cb54"
+        },
+        {
+            "type": "java",
             "name": "NumberExRecursion",
             "request": "launch",
             "mainClass": "core_java.basics.Recursion.NumberExRecursion",
